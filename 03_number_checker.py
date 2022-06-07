@@ -19,6 +19,6 @@ def num_check(question, low, high):
 
 # main routine
 
-how_much = num_check("Pick a number",1,10)
+how_much = num_check("how much would you like to play with",1,10)
 
 print("You will be spending ${}".format(how_much))
